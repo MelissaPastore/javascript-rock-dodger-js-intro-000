@@ -47,6 +47,8 @@ function checkCollision(rock) {
       return true; 
     }
     
+    else return false; 
+    
     /**
                * Think about it -- what's happening here?
                * There's been a collision if one of three things is true:
@@ -56,9 +58,7 @@ function checkCollision(rock) {
                *    and the rock's right edge is < the DODGER's right edge;
                * 3. The rock's left edge is < the DODGER's right edge,
                *    and the rock's right edge is > the DODGER's right edge.
-               */) {
-      return true
-    }
+               */
   }
 }
 
